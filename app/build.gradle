@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.cmpexpert1364.taqwa40'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.cmpexpert1364.taqwa40'
+        minSdk 23
+        targetSdk 35
+        versionCode 15
+        versionName '15'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
